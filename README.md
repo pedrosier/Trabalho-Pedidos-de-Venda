@@ -25,18 +25,21 @@ Arquitetura simples com domínio isolado:
 
 ### Clonar e Restaurar
 ```
-git clone <url-do-repositorio>
+git clone https://github.com/pedrosier/Trabalho-Pedidos-de-Venda
 dotnet restore
 ```
 
 ### Executar Testes
 ```
-dotnet test tests/Pedidos.Domain.Tests
+dotnet test
+```
+
+### Executar Programa
+```
+dotnet run --project .\src\Domain.App\Domain.App.csproj
 ```
 
 Nota: Projeto focado em domínio; testes demonstram herança para ritual/especialização e composição para eixos plugáveis, evitando proliferação de subclasses.
-
----
 
 ## 👥 Aluno
 
